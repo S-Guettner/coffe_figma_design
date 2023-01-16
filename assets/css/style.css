@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* font */
+@font-face {
+  font-family: "fontfair";
+  src: url(../fonts/PlayfairDisplay-Regular.ttf);
+}
+.fontPlayfair {
+  font-family: "fontfair";
+}
+
+.smallerFont {
+  font-size: 0.7rem;
+}
+
+/* colors */
+.colorGreen {
+  color: #6CA89C;
+}
+
+body {
+  width: 430px;
+  height: 932px;
+  background-color: white;
+}
+
+header .navFlexContainer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+main {
+  width: 100%;
+}
+main .headline {
+  padding-top: 2rem;
+  padding-left: 2rem;
+  margin-bottom: 2rem;
+  overflow-x: hidden;
+}
+main .productCardSkewContainer {
+  background-color: white;
+  box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.3);
+  height: 460px;
+  width: 253px;
+  margin-left: 2rem;
+  border-radius: 20px;
+}
+main .productCardSkewContainer article {
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+}
+main .productCardSkewContainer article p {
+  margin-bottom: 0.5rem;
+}
+main .productCardSkewContainer .priceButtonFlexContaimer {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 0.7rem;
+}
+main .productCardStraightContainer {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 17rem;
+  left: 20rem;
+}
+main .productCardStraightContainer article {
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+}
+main .productCardStraightContainer article p {
+  margin-bottom: 0.5rem;
+}
+main .productCardStraightContainer .priceButtonFlexContaimer {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 0.7rem;
+  margin-bottom: 0.5rem;
+}
+main .productCardStraightContainer .productImage {
+  width: 10rem;
+}/*# sourceMappingURL=style.css.map */
